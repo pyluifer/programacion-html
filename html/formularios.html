@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <!-----Cargar la hoja de estilo----->
+    <link rel="stylesheet" href="../styles/styleForm.css"/>
+</head>
+<body>
+    <h1>Campo de texto</h1>
+    <!-------Campo de Texto--------->
+    <input type="text"/>
+    <br>
+    <br>
+    <!----Campo de texto con "marca de agua"-->
+    <input type="text" placeholder="Ingresa tu nombre"/>
+    <br>
+    <br>
+    <!----Campo numerico---->
+    <input type="number" placeholder="campo numerico" />
+    <!-----Campo Telefonico------>
+    <br>
+    <br>
+    <input type="tel" placeholder="campo Telefono" />
+    <br>
+    <br>
+<!-----Checkbox------->
+<input type="checkbox" id="c1" class="checks" name="c1"/>
+<label for="c1">checkbox 1</label>
+<br>
+<input type="checkbox" id="c2" class="ckecks" name="c2"/>
+<label for="c2">checkbox 2</label>
+<br>
+<input type="checkbox" id="c3" class="checks" name="c3" />
+<label for="c3">checkbox 3</label>
+<br>
+<input type="checkbox" id="c4" class="checks" name="c4"/>
+<label for="c4">checkbox 4</label>
+<hr>
+<h1>Formularios</h1>
+<!-------Cargar un imagen desde la nube-->
+<img src="data:image/png;base64,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"/>
+<!-------Formulario-->
+<form>
+    <!-------Usuario------>
+    <label for="User">Usuario:</label>
+    <br>
+    <input type="text" id="User" name="User"/>
+    <br>
+    <label id="pass">Contraseña:</label>
+    <br>
+    <input type="password" id="pass" name="pass" />
+    <br>
+    <br>
+    <label for="ciudades">Ciudad:</label>
+    <select id="ciudades" name="ciudades">
+        <option>Bogota</option>
+        <option>Medellin</option>
+        <option>Cali</option>
+        <option>Pereira</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="registro" />
+    <br>
+    <br>
+</form>
+</body>
+</html>
